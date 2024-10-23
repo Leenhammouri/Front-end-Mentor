@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: hsl(212, 45%, 89%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    flex-direction: column;
+    
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 200px;
+}
+
+.qr-container{
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.qr-container img{
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+
+p{
+    color: #bbb;
+    font-size: 12px;
+}
